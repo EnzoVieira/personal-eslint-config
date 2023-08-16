@@ -1,19 +1,30 @@
 {
   "name": "@enzovieira/eslint-plugin",
   "version": "1.0.0",
-  "description": "ESLint plugin for my personal workspace",
+  "description": "ESLint + Prettier config for my personal workspace",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "lib"
+  ],
   "keywords": [
     "eslint",
     "eslintplugin",
     "config",
-    "lint"
+    "lint",
+    "nextjs",
+    "prettier"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Enzo Vieira enzovieira16@hotmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnzoVieira/personal-eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EnzoVieira/personal-eslint-config/issues"
+  },
   "dependencies": {
     "@next/eslint-plugin-next": "^13.4.16",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
