@@ -1,6 +1,6 @@
 {
   "name": "@enzovieira/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ESLint + Prettier config for my personal workspace",
   "main": "index.js",
   "files": [
@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EnzoVieira/personal-eslint-config.git"
+    "url": "https://github.com/EnzoVieira/personal-eslint-config.git"
   },
   "bugs": {
     "url": "https://github.com/EnzoVieira/personal-eslint-config/issues"
@@ -37,5 +37,12 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unused-imports": "^3.0.0",
     "prettier": "^3.0.1"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@semantic-release/github": "^9.0.4",
+    "semantic-release": "^21.0.7"
   }
 }
