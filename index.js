@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-call */
-/* eslint-disable @typescript-eslint/no-var-requires */
 const base = require("./lib/base")
 const react = require("./lib/react")
 const prettier = require("./lib/prettier")

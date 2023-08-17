@@ -40,11 +40,15 @@
   },
   "scripts": {
     "commit": "git-cz",
-    "semantic-release": "semantic-release --branches main"
+    "semantic-release": "semantic-release --branches main",
+    "lint": "eslint lib --ext .js",
+    "lint:fix": "eslint lib --ext .js --fix"
   },
   "devDependencies": {
     "@semantic-release/github": "^9.0.4",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint-plugin-eslint-plugin": "^5.1.1",
+    "eslint-plugin-n": "^16.0.1",
     "semantic-release": "^21.0.7"
   },
   "config": {
