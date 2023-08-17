@@ -1,6 +1,7 @@
 const base = require("./lib/base")
 const react = require("./lib/react")
 const prettier = require("./lib/prettier")
+const tailwind = require("./lib/tailwind")
 
 module.exports = {
   env: {
@@ -14,6 +15,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
+    "plugin:tailwindcss/recommended",
     "plugin:@next/next/recommended",
     "plugin:prettier/recommended",
   ],
@@ -35,6 +37,7 @@ module.exports = {
     ...base,
     ...react,
     ...prettier,
+    ...tailwind,
   },
 
   settings: {
