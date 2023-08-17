@@ -39,7 +39,7 @@
     "prettier": "^3.0.1"
   },
   "scripts": {
-    "semantic-release": "semantic-release"
+    "semantic-release": "NPM_TOKEN=$(grep NPM_TOKEN .env | cut -d '=' -f2) GH_TOKEN=$(grep GH_TOKEN .env | cut -d '=' -f2) npx semantic-release"
   },
   "devDependencies": {
     "@semantic-release/github": "^9.0.4",
