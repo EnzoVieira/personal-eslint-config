@@ -1,10 +1,10 @@
-# ESLint + Prettier Config for NextJS
+# ESLint + Prettier + Tailwind Config for NextJS
 
-> Shareable config for [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/), aimed primarily to be used in NextJS projects.
+> Shareable config for [ESLint](https://eslint.org/), [Prettier](https://prettier.io/) and [Tailwind](https://tailwindcss.com/), aimed primarily to be used in NextJS projects.
 
 ## Overview
 
-This configuration extends some recommended ESLint config and Prettier integration via the ESLint [plugin](https://github.com/prettier/eslint-plugin-prettier). Additionally, a few default rules are overriden to provide a more relaxed development experience in Next.js applications out of the box.
+This configuration extends some recommended ESLint config, Prettier and Tailwind integration via the ESLint [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier) and [eslint-plugin-tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss). Additionally, a few default rules are overriden to provide a more relaxed development experience in Next.js applications out of the box.
 
 The goal of this configuration is to get code linting and formatting up and running as quickly as possible in a modern development environment, without sacrificing cleanliness and readability, and having to configure ESLint + Prettier from scratch every time.
 
@@ -23,6 +23,7 @@ This will install the shared config
 - [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react)
 - [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
 - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+- [eslint-plugin-tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss)
 - [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import)
 - [eslint-plugin-unused-imports](https://github.com/sweepline/eslint-plugin-unused-imports)
 
