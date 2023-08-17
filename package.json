@@ -39,10 +39,17 @@
     "prettier": "^3.0.1"
   },
   "scripts": {
+    "commit": "git-cz",
     "semantic-release": "semantic-release --branches main"
   },
   "devDependencies": {
     "@semantic-release/github": "^9.0.4",
+    "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^21.0.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
