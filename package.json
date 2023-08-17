@@ -1,6 +1,6 @@
 {
   "name": "@enzovieira/eslint-config",
-  "version": "1.0.5",
+  "version": "0.0.0-development",
   "description": "ESLint + Prettier config for my personal workspace",
   "main": "index.js",
   "files": [
@@ -39,7 +39,7 @@
     "prettier": "^3.0.1"
   },
   "scripts": {
-    "semantic-release": "NPM_TOKEN=$(grep NPM_TOKEN .env | cut -d '=' -f2) GH_TOKEN=$(grep GH_TOKEN .env | cut -d '=' -f2) npx semantic-release"
+    "semantic-release": "semantic-release --branches main"
   },
   "devDependencies": {
     "@semantic-release/github": "^9.0.4",
